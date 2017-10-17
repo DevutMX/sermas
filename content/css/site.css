@@ -1,0 +1,13 @@
+.navbar {
+    margin-bottom: 0px;
+    padding: 10px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #cccccc;
+}
+
+.navbar img {
+    height: 100%;
+    width: 50%;
+}
