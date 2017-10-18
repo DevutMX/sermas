@@ -1,0 +1,33 @@
+FUNCIONAMIENTO DE LA BASE DE DATOS
+
+La base de datos debe ser capaz de albergar la información pertinente de cada individuo (mascota), Especie, Nombre, Edad, Sexo, información clínica (vacunas, cirugías, condiciones médicas, desparasitaciones, tratamientos, etc), fotografía (que el propietario sea capaz de subir más de una foto en la información de la mascota).
+
+El acceso a la información de cada mascota deberá ser de 5 maneras principalmente
+
+Acceso sin restricción, este lo tendrá únicamente el administrador, en caso de haber modificaciones en la información, deberá quedar guardada la información previa, solo visible para el administradorAcceso de veterinarios, ellos podrán tener acceso a la información general de la mascota pero no del propietario (nombre completo del propietario, domicilio), tal vez pueda acceder a un número telefónico y algún modo de referirse al propietario (Lic Perdomo, Sr Juan, profra Heidi, etc, en este acceso definitivamente no podrán modificar la información, sólo podrán agregar más información en el historial clínico, (vacunaciones, consultas, diagnósticos, cirugías, hospitalizaciones, medicamentos administrados, etc), EL ADMINISTRADOR DEBE SER CAPAZ DE CONCEDER ACCESO O LIMITAR AL VETERINARIO EN CUESTIONAcceso a propietario, el propietario podrá tener acceso a la información de su mascota mediante un par de datos, número de chip de identificación y/o algún otro dato (contraseña, número de teléfono, nombre de la mascota), el propietario no debe ser capaz de modificar la información sólo puede poner anotaciones como consultas al veterinario y subir fotos de su mascota.Acceso público en general, mediante este acceso si alguien encuentra mascota y determina el número de chip de identificación, el sistema le haga una serie de preguntas, como sexo, raza (si la hubiera) color, tamaño, que pueda mostrar fotos para que la persona en cuestión determine cuál es la foto real de la mascota que encontró, una vez bien identificada la mascota, el sistema puede darle al usuario la opción de reportar el chip y proporcionar acceso para hacer un reporte (reporte que debe ir al historial de la mascota), este reporte debe ser enviado al propietario y al administrador, así mismo darle información de contacto (si el propietario da consentimiento) o si hubiere algún tipo de recompensa por la mascota.Acceso de localización en campo, este acceso se le debe dar a la persona encargada de localizar mascotas en centros de control canino, albergues, veterinarias, etc., si en la búsqueda se detectan una o más mascotas, el sistema debe proporcionar al usuario la información de contacto pertinente para que informar al propietario o responsable, así mismo debe enviar algún tipo de notificación al propietario en caso que no conteste a la llamada que le haga el usuario de localización, también debe generar reporte de dicho evento y anexarlo a la información de la mascota en cuestión, EL ADMINISTRADOR DEBE SER CAPAZ DE CONCEDER O BLOQUEAR ESTE ACCESO AL USUARIO
+
+ 
+
+La base de datos debe ser capaz de hacer listados de reporte, mascotas perdidas (reportes que harán los propietarios o responsables de las mascotas), mascotas encontradas (reporte que puede hacer cualquier persona que tenga en custodia a la mascota),
+
+Dichos reportes deben aparecer en la información de la mascota hasta que sea el propietario o administrador quienes lo cancelen, sin embargo, dicho reporte debe quedar anexado en la información de la mascota
+
+ 
+
+Función de la base de datos respecto a los cobros,
+
+El acceso a la base de datos para la localización de mascotas será gratuito como ya se describió con anterioridad, sin embargo, hay ciertas funciones que se pueden agregar por medio de sugerencias o experiencias,
+
+Esta base de datos debe ser capaz de llevar un control de cobros para veterinarios, para los propietarios, y propietarios con mascotas en otras bases de datos, dichos cobros serán bajo los siguientes conceptos:
+
+Veterinarios, esta base de datos le dará al veterinario el privilegio de recordarle las fechas de vacunación de las mascotas que el halla vacunado de manera previa, así como las citas para desparasitaciones, baños, estéticas o manejos que cada veterinario a su criterio considere conveniente, le debe dar la alerta el día o los días previos que el mismo veterinario programe, así mismo se le debe enviar un recordatorio al propietario.
+
+ 
+
+Propietarios: Mediante el cobro de la mensualidad/anualidad, el propietario tendrá el privilegio de recibir a la mascota en el domicilio que el propietario señale por si la misma se hallara en un albergue o centro de control animal, esta anualidad le incluiría, el pago de la respectiva multa o cobro del lugar, atención médica inicial de la mascota en caso de requerirla.
+
+También se pretende ofrecer a los propietarios paquetes de cobertura en gastos médicos, servicios especiales (RX, Ultrasondo, Laboratorio de diagnóstico, cremación, etc), con un cobro anual por cada uno de los mismos.
+
+ 
+
+Propietarios con mascotas registradas en otras bases de datos: la base de datos debe ser capaz de poder anexar a mascotas con chip de identificación previo y que estén registradas en otras bases de datos mediante un cobro único por alta de la información.
